@@ -32,7 +32,8 @@ export class UserController {
         }catch(e) {
             console.error(e);
         }finally {
-            console.log('a new user was added: ', request.body.lastName);
+            console.log('version 1: a new user was added: ', request.body.lastName);
+
         }
         
     }
